@@ -52,3 +52,41 @@ Iteration: 8
 Iteration: 9
 Iteration: 10
 ```
+
+## command.go 
+
+```bash
+./command
+```
+
+```bash
+[sub]Command required
+usage: commands <Command> [-h|--help]
+
+                Simple example of argparse commands
+
+Commands:
+
+  start  Will start a process
+  stop   Will stop a process
+
+Arguments:
+
+  -h  --help  Print help information
+```
+
+```bash
+./command start
+```
+
+```bash
+Started process
+```
+
+```bash
+./command stop
+```
+
+```bash
+Stopped process
+```
