@@ -90,3 +90,23 @@ Started process
 ```bash
 Stopped process
 ```
+
+## flags.go
+
+```bash
+./flags
+```
+
+```bash
+The current working directory is /home/ubuntu/go/project/Gorgparse/argparse/examples/flags
+```
+
+```bash
+./flags -v
+```
+
+```bash
+Args:  [./flags -v]
+PID:  30068
+The current working directory is /home/ubuntu/go/project/Gorgparse/argparse/examples/flags
+```
